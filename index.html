@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+    <title>تداول الذهب | بونص 100% حصري</title>
+    <!-- Bootstrap 5 RTL (moro) + minimal core -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.rtl.min.css"
+    />
+    <!-- Font Awesome 6 (social icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts: Premium, sharp, modern -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom ultra-aggressive CPA style, highly optimized -->
+    <style>
+      /* OVERRIDES & PREMIUM FINANCIAL AGGRESSIVE */
+      body {
+        font-family: "Cairo", sans-serif;
+        background: #f6f9fc;
+        color: #1e2c3a;
+        line-height: 1.5;
+        font-weight: 500;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      .h1-like {
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+      .premium-gold {
+        color: #c8a855 !important; /* old money gold */
+      }
+      .btn-gold {
+        background: linear-gradient(145deg, #d4af37 0%, #b49450 100%);
+        border: none;
+        color: #0a0f14 !important;
+        font-weight: 800;
+        padding: 0.75rem 2rem;
+        border-radius: 50px;
+        box-shadow: 0 10px 20px -5px rgba(180, 148, 80, 0.4);
+        transition: 0.2s;
+        letter-spacing: 0.5px;
+        border: 1px solid rgba(255, 215, 0, 0.5);
+      }
+      .btn-gold:hover {
+        background: linear-gradient(145deg, #e4c580 0%, #c8a855 100%);
+        box-shadow: 0 15px 25px -5px rgba(200, 168, 85, 0.5);
+        color: #000 !important;
+        transform: translateY(-2px);
+      }
+      .btn-outline-gold {
+        border: 2px solid #c8a855;
+        color: #c8a855;
+        font-weight: 700;
+        border-radius: 40px;
+        background: transparent;
+      }
+      .bg-dark-premium {
+        background: #0e1a1f; /* deep black-blue, high trust */
+      }
+      .navbar {
+        background: rgba(14, 26, 31, 0.95);
+        backdrop-filter: blur(8px);
+        padding: 0.75rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+      .logo {
+        font-size: 1.9rem;
+        font-weight: 900;
+        color: white;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .logo span {
+        color: #c8a855;
+      }
+      /* HERO with video background – autoplay, premium look */
+      .hero-video-wrapper {
+        position: relative;
+        background: #0b1117;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+      }
+      #heroVideo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
+        object-fit: cover;
+        opacity: 0.5;
+      }
+      .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+          circle at 70% 30%,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 20, 10, 0.7)
+        );
+      }
+      .hero-content {
+        position: relative;
+        z-index: 5;
+        color: white;
+        text-shadow: 0 5px 15px black;
+      }
+      .hero-badge {
+        background: rgba(200, 168, 85, 0.2);
+        backdrop-filter: blur(5px);
+        border: 1px solid #c8a855;
+        color: #ffd966;
+        font-weight: 600;
+        padding: 0.4rem 1.2rem;
+        border-radius: 40px;
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+      .display-3 {
+        font-weight: 900;
+        font-size: 3.5rem;
+        line-height: 1.2;
+      }
+      .ratio-9x16 {
+        --bs-aspect-ratio: 177.77%; /* Ensures the 9:16 vertical shape */
+      }
+      @media (max-width: 768px) {
+        .display-3 {
+          font-size: 2.2rem;
+        }
+      }
+      /* feature cards – metallic, premium */
+      .feature-card {
+        background: white;
+        border-radius: 24px;
+        padding: 2rem 1.5rem;
+        box-shadow:
+          0 20px 35px -5px rgba(0, 0, 0, 0.03),
+          0 0 0 1px rgba(200, 168, 85, 0.1);
+        transition: 0.25s ease;
+        height: 100%;
+        border-bottom: 4px solid #c8a855;
+        text-align: center;
+      }
+      .feature-card i {
+        color: #c8a855;
+        font-size: 2.5rem;
+        margin-bottom: 1.2rem;
+      }
+      .feature-card h4 {
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+      .feature-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 30px 45px -8px rgba(200, 168, 85, 0.2);
+      }
+      /* form styling - CPA style */
+      .cpa-form {
+        background: white;
+        padding: 2.2rem;
+        border-radius: 30px;
+        box-shadow:
+          0 20px 40px rgba(0, 0, 0, 0.08),
+          0 0 0 1px #c8a855;
+        direction: rtl;
+      }
+      .cpa-form .form-control,
+      .cpa-form .form-select {
+        padding: 0.9rem 1.2rem;
+        border-radius: 60px;
+        border: 1px solid #ddd;
+        font-weight: 500;
+        background: #fafbfc;
+      }
+      .cpa-form .form-control:focus {
+        border-color: #c8a855;
+        box-shadow: 0 0 0 3px rgba(200, 168, 85, 0.25);
+      }
+      .cpa-form .btn-submit {
+        background: #0e1a1f;
+        color: white;
+        font-weight: 800;
+        padding: 0.9rem;
+        border-radius: 60px;
+        width: 100%;
+        border: none;
+        border-bottom: 4px solid #c8a855;
+        transition: 0.2s;
+        letter-spacing: 1px;
+      }
+      .cpa-form .btn-submit:hover {
+        background: #1e2c3a;
+        border-bottom-width: 6px;
+      }
+      .video-thumb-card {
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 15px 25px -8px black;
+        border: 2px solid rgba(200, 168, 85, 0.4);
+        transition: 0.2s;
+      }
+      .video-thumb-card:hover {
+        border-color: #c8a855;
+        transform: scale(1.02);
+      }
+      .video-thumb-card img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+      }
+      .play-badge {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(200, 168, 85, 0.9);
+        color: black;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        padding-right: 5px; /* RTL play shift */
+      }
+      /* Testimonials carousel — premium slick-like with bootstrap */
+      .testimonial-item {
+        background: white;
+        padding: 2rem 2rem 2rem 2rem;
+        border-radius: 40px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.03);
+        margin: 0.5rem;
+        border: 1px solid #fff;
+        transition: 0.15s;
+        border-bottom: 5px solid #c8a855;
+      }
+      .testimonial-img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #c8a855;
+      }
+      .profit-claim {
+        background: #eaf6e7;
+        color: #1f7840;
+        font-weight: 700;
+        padding: 0.3rem 1rem;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 0.9rem;
+      }
+      footer {
+        background: #0e1a1f;
+        color: #adb5bd;
+      }
+      .social-icon {
+        background: #1e2c3a;
+        color: white;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+        transition: 0.2s;
+      }
+      .social-icon:hover {
+        background: #c8a855;
+        color: black;
+      }
+      .footer-link {
+        color: #ddd;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0 0.75rem;
+      }
+      .footer-link:hover {
+        color: #c8a855;
+      }
+      /* anti-bot simple honeypot */
+      .hp-email {
+        display: none;
+      }
+      /* RTL fine tuning */
+      .me-2 {
+        margin-left: 0.5rem !important;
+        margin-right: 0 !important;
+      }
+      .ms-2 {
+        margin-right: 0.5rem !important;
+        margin-left: 0 !important;
+      }
+      .me-auto {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+      }
+      .form-check {
+        padding-right: 1.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header: Logo + aggressive CTA -->
+    <nav class="navbar navbar-expand fixed-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">
+          <img
+            src="./img/logo_white.png"
+            alt="Logo"
+            height="45"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <div class="d-flex">
+          <a href="#mainForm" class="btn btn-gold py-2 px-4">
+            <i class="fas fa-gem ms-2"></i>احصل على 100 % بونص
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero with autoplay video (muted required for autoplay) -->
+    <section class="hero-video-wrapper">
+      <video autoplay muted loop playsinline id="heroVideo">
+        <!-- optimized compressed video file (poster fallback) -->
+        <source src="main-alvexo.mp4" type="video/mp4" />
+        Your browser does not support video.
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center min-vh-85" style="min-height: 85vh">
+          <div class="col-lg-8">
+            <span class="hero-badge"
+              ><i class="fas fa-bolt ms-1"></i> عرض حصري لعدد محدود</span
+            >
+            <h1 class="display-3 fw-black">
+              حوّل استثمارك إلى ذهب <br /><span class="premium-gold"
+                >بونص 100% فوري</span
+              >
+            </h1>
+            <p class="lead fs-3 mt-3 fw-semibold">
+              أكبر وسيط تداول حائز على جوائز – تداول بثقة مع رافعة مالية غير
+              مسبوقة
+            </p>
+            <a href="#mainForm" class="btn btn-gold btn-lg px-5 py-3 mt-3 fs-4">
+              <i class="fas fa-hand-pointer ms-2"></i> ابدأ الآن واستلم ضعف
+              إيداعك
+            </a>
+            <p class="mt-4 text-white-50">
+              <i class="fas fa-shield-alt ms-1"></i> تخضع للشروط – 100% بونص
+              ترحيبي حتى 5000$
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features: 3 cards repeating premium value prop aggressive -->
+    <section class="container py-5 my-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-black display-6">
+          لماذا <span class="premium-gold">فوركس جولد</span> الخيار الذكي؟
+        </h2>
+        <p class="fs-4 text-secondary">ثلاثة أسباب تضعك في صف الأغنياء</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-coins fa-3x"></i>
+            <h4>100% بونص على الإيداع</h4>
+            <p class="text-muted">
+              ضع إيداعك واحصل على ضمان مضاعف حتى 10,000$. أضعاف أرباحك من الصفقة
+              الأولى.
+            </p>
+            <span class="profit-claim mt-2">رأس مال مضاعف</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-bolt fa-3x"></i>
+            <h4>تنفيذ فوري بـ0.01 ثانية</h4>
+            <p class="text-muted">
+              بنية تحتية منخفضة الكمون، سبريد يبدأ من 0.0 نقطة – تفوق على السوق.
+            </p>
+            <span class="profit-claim mt-2">أسرع تنفيذ</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <i class="fas fa-user-tie fa-3x"></i>
+            <h4>مدير حساب VIP</h4>
+            <p class="text-muted">
+              كل عميل يحصل على خبير تداول شخصي، إشارات يومية وتحليل ذهب.
+            </p>
+            <span class="profit-claim mt-2">كونسيرج خاص</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Primary lead capture form (Anti-bot: honeypot & timer) -->
+    <section id="mainForm" class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="cpa-form">
+            <div class="text-center mb-4">
+              <span class="badge bg-dark px-4 py-2 fs-6 rounded-pill"
+                >✔️ ضمان بونص 100%</span
+              >
+              <h3 class="fw-black mt-3">احصل على مكافأتك الآن</h3>
+              <p class="text-muted">
+                أكمل البيانات وسيقوم مدير الحساب بالاتصال بك خلال 12 دقيقة
+              </p>
+            </div>
+            <form action="#" method="post">
+              <!-- honeypot anti-bot field hidden from real users -->
+              <div class="hp-email">
+                <label for="hp-email">لا تملأ هذا الحقل</label>
+                <input
+                  type="text"
+                  id="hp-email"
+                  name="hp_email"
+                  placeholder="email"
+                />
+              </div>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="الاسم الكامل"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="البريد الإلكتروني"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="رقم الجوال (واتساب)"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option selected disabled>حجم الإيداع المتوقع</option>
+                    <option>$250 – $1000</option>
+                    <option>$1000 – $5000</option>
+                    <option>$5000 – $20000</option>
+                    <option>أكثر من $20000</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agree"
+                      required
+                    />
+                    <label class="form-check-label" for="agree">
+                      أوافق على
+                      <a href="#" class="text-decoration-none premium-gold"
+                        >الشروط والأحكام</a
+                      >
+                      وأرغب في الحصول على البونص.
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- Anti-bot simple timer + signature -->
+              <input type="hidden" name="form_load_time" value="1700000000" />
+              <button type="submit" class="btn-submit mt-4">
+                <i class="fas fa-gift ms-2"></i> تفعيل 100% بونص فوراً
+              </button>
+              <p class="text-center text-muted mt-3 small">
+                <i class="fas fa-lock"></i> معلوماتك آمنة – لا بريد مزعج
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Testimonials: 4 thumbnails with poster images -->
+    <section class="container my-5 pt-4">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-black">
+          شهادات<span class="premium-gold"> حقيقية</span> متداولينا
+        </h2>
+        <span class="bg-dark text-white px-4 py-2 rounded-pill"
+          >أكثر من 12,500+ عميل</span
+        >
+      </div>
+      <div class="row g-4">
+        <!-- thumb 1 -->
+        <div class="col-6 col-md-3">
+          <div
+            class="ratio ratio-9x16 overflow-hidden rounded-4 shadow-lg video-thumb-card"
+          >
+            <video
+              controls
+              preload="metadata"
+              class="object-fit-cover w-100 h-100"
+            >
+              <source src="./the-rock.mp4" type="video/mp4" />
+              متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div
+            class="ratio ratio-9x16 overflow-hidden rounded-4 shadow-lg video-thumb-card"
+          >
+            <video controls preload="metadata" class="object-fit-cover">
+              <source src="./ElAgha.mp4" type="video/mp4" />
+              متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div
+            class="ratio ratio-9x16 overflow-hidden rounded-4 shadow-lg video-thumb-card"
+          >
+            <video
+              controls
+              preload="metadata"
+              class="object-fit-cover w-100 h-100"
+            >
+              <source src="./Ans-alvexo.mp4" type="video/mp4" />
+              متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div
+            class="ratio ratio-9x16 overflow-hidden rounded-4 shadow-lg video-thumb-card"
+          >
+            <video
+              controls
+              preload="metadata"
+              class="object-fit-cover w-100 h-100"
+            >
+              <source src="./29-alvexo.mp4" type="video/mp4" />
+              متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Carousel (5 fake/stock testimonials, profit claims) -->
+    <section class="container my-5 py-4">
+      <h2 class="fw-black text-center">
+        قصص <span class="premium-gold">نجاح</span> عملائنا
+      </h2>
+      <p class="text-center fs-5 mb-5">أرباح حقيقية محققة خلال 30 يومًا</p>
+      <div
+        id="testimonialCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <div class="testimonial-item text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    class="testimonial-img mb-3"
+                    alt="Khaled"
+                  />
+                  <h5 class="fw-bold">خالد العتيبي</h5>
+                  <span class="profit-claim mb-2"
+                    ><i class="fas fa-trophy"></i> +$4,850 ربح</span
+                  >
+                  <p class="mt-3">
+                    "البونص 100% ضاعف رأس مالي، وسحبت أرباحي خلال 24 ساعة. أفضل
+                    وسيط."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <div class="testimonial-item text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    class="testimonial-img mb-3"
+                    alt="Nora"
+                  />
+                  <h5 class="fw-bold">نورا السعيد</h5>
+                  <span class="profit-claim mb-2"
+                    ><i class="fas fa-chart-line"></i> +$12,700 ربح</span
+                  >
+                  <p class="mt-3">
+                    "توصيات الذهب دقيقة جداً، خلال أسبوعين حققت الهدف. شكراً
+                    FXGold Elite."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <div class="testimonial-item text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/67.jpg"
+                    class="testimonial-img mb-3"
+                    alt="Fahad"
+                  />
+                  <h5 class="fw-bold">فهد المالكي</h5>
+                  <span class="profit-claim mb-2"
+                    ><i class="fas fa-bitcoin"></i> +$22,300 ربح</span
+                  >
+                  <p class="mt-3">
+                    "خدمة VIP رائعة، مدير الحساب متاح 24/7. أودعت 2000$ واستلمت
+                    4000$ بونص!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <div class="testimonial-item text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/63.jpg"
+                    class="testimonial-img mb-3"
+                    alt="Lina"
+                  />
+                  <h5 class="fw-bold">لينا عبدالله</h5>
+                  <span class="profit-claim mb-2"
+                    ><i class="fas fa-dollar-sign"></i> +$6,200 ربح</span
+                  >
+                  <p class="mt-3">
+                    "منصة تنفيذ سريع وسحب بدون مشاكل. أوصي بهذا الوسيط
+                    للمحترفين."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <div class="testimonial-item text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/90.jpg"
+                    class="testimonial-img mb-3"
+                    alt="Sultan"
+                  />
+                  <h5 class="fw-bold">سلطان القحطاني</h5>
+                  <span class="profit-claim mb-2"
+                    ><i class="fas fa-gem"></i> +$8,950 ربح</span
+                  >
+                  <p class="mt-3">
+                    "بونص 100% حقيقي وبدون تعقيد. سحبت أكثر من 10 آلاف دولار بكل
+                    ثقة."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">السابق</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark rounded-circle p-3"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">التالي</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Secondary Form: Duplicate at bottom, same CPA aggression -->
+    <section class="container my-5 pt-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="cpa-form" style="border-bottom-width: 6px">
+            <div class="text-center mb-4">
+              <span class="badge bg-dark px-4 py-2 fs-6 rounded-pill"
+                >⏳ عرض البونص ينتهي قريباً</span
+              >
+              <h3 class="fw-black mt-3">آخر فرصة للحصول على 100% إيداع</h3>
+              <p class="text-muted">
+                أكثر من 230 تاجر حصلوا على البونص اليوم – لا تنتظر
+              </p>
+            </div>
+            <form action="#" method="post">
+              <!-- duplicate honeypot -->
+              <div class="hp-email">
+                <label for="hp-email2">لا تملأ</label>
+                <input
+                  type="text"
+                  id="hp-email2"
+                  name="hp_email2"
+                  placeholder="email"
+                />
+              </div>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="الاسم الكامل"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="البريد الإلكتروني"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="رقم الجوال (واتساب)"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option selected disabled>اختر العملة الأساسية</option>
+                    <option>دولار أمريكي</option>
+                    <option>يورو</option>
+                    <option>جنيه استرليني</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agree2"
+                      required
+                    />
+                    <label class="form-check-label" for="agree2">
+                      نعم، أود الحصول على البونص وأؤكد صحة البيانات.
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn-submit mt-4">
+                <i class="fas fa-thumbs-up ms-2"></i> احجز بونص 100% الآن
+              </button>
+              <p class="text-center text-muted mt-3 small">
+                <i class="fas fa-clock"></i> 15 دقيقة متبقية فقط
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer: Logo, social icons, navigation links -->
+    <footer class="pt-5 pb-4 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 mb-3">
+            <a class="navbar-brand logo" href="#" style="font-size: 2rem"
+              ><img
+                src="./img/logo_white.png"
+                alt="Logo"
+                height="45"
+                class="d-inline-block align-text-top"
+            /></a>
+            <p class="mt-3 text-white-50">
+              وسيط تداول عالمي مرخص، مقر رئيسي لندن – دبي. نقدم أعلى معايير
+              السيولة.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3 text-center">
+            <div class="mb-3">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </div>
+            <div class="footer-links">
+              <a href="#" class="footer-link">الرئيسية</a>
+              <a href="#" class="footer-link">الشروط</a>
+              <a href="#" class="footer-link">الخصوصية</a>
+              <a href="#" class="footer-link">اتصل بنا</a>
+              <a href="#" class="footer-link">المخاطر</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 text-md-start text-muted">
+            <p class="small">
+              © 2025 FXGold Elite – جميع الحقوق محفوظة. تداول العملات ينطوي على
+              مخاطر.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS for carousel, navbar etc (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Optional: autoplay video fallback if needed (nothing else) -->
+    <script>
+      // ultra light – anti bot hint: not needed
+      (function () {
+        // simple timestamp for forms anti-bot (simulate)
+        console.log("Premium CPA page loaded – 100% bonus aggressive");
+      })();
+    </script>
+  </body>
+</html>
